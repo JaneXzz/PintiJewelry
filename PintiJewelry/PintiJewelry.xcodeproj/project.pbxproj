@@ -15,6 +15,13 @@
 		3F20AB7E1D22FD0500684EF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F20AB7C1D22FD0500684EF0 /* LaunchScreen.storyboard */; };
 		3F20AB891D22FD0500684EF0 /* PintiJewelryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F20AB881D22FD0500684EF0 /* PintiJewelryTests.m */; };
 		3F20AB941D22FD0500684EF0 /* PintiJewelryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F20AB931D22FD0500684EF0 /* PintiJewelryUITests.m */; };
+		3F85014B1D49D43600880BE5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8501491D49D43600880BE5 /* BaseViewController.m */; };
+		3F85014E1D49D46000880BE5 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F85014D1D49D46000880BE5 /* LeftMenuViewController.m */; };
+		3F8501511D49D8FC00880BE5 /* JNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8501501D49D8FC00880BE5 /* JNavigationViewController.m */; };
+		3FB029531D4B7715006BF01A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029521D4B7715006BF01A /* MainViewController.m */; };
+		3FB029661D4B77BD006BF01A /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029571D4B77BD006BF01A /* LocationViewController.m */; };
+		3FB029671D4B77BD006BF01A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0295D1D4B77BD006BF01A /* SettingViewController.m */; };
+		3FB029681D4B77BD006BF01A /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029631D4B77BD006BF01A /* ShareViewController.m */; };
 		5D8D7BC598DC6C1AE7701FD9 /* libPods-PintiJewelry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB15B21F4017BC7FA55C836 /* libPods-PintiJewelry.a */; };
 /* End PBXBuildFile section */
 
@@ -54,6 +61,20 @@
 		3F20AB8F1D22FD0500684EF0 /* PintiJewelryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PintiJewelryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F20AB931D22FD0500684EF0 /* PintiJewelryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PintiJewelryUITests.m; sourceTree = "<group>"; };
 		3F20AB951D22FD0500684EF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F8501481D49D43600880BE5 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		3F8501491D49D43600880BE5 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		3F85014C1D49D46000880BE5 /* LeftMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftMenuViewController.h; sourceTree = "<group>"; };
+		3F85014D1D49D46000880BE5 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
+		3F85014F1D49D8FC00880BE5 /* JNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNavigationViewController.h; sourceTree = "<group>"; };
+		3F8501501D49D8FC00880BE5 /* JNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNavigationViewController.m; sourceTree = "<group>"; };
+		3FB029511D4B7715006BF01A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3FB029521D4B7715006BF01A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3FB029561D4B77BD006BF01A /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
+		3FB029571D4B77BD006BF01A /* LocationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationViewController.m; sourceTree = "<group>"; };
+		3FB0295C1D4B77BD006BF01A /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
+		3FB0295D1D4B77BD006BF01A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
+		3FB029621D4B77BD006BF01A /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		3FB029631D4B77BD006BF01A /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
 		81E87F6C720D5B3369832AF0 /* Pods-PintiJewelry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintiJewelry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PintiJewelry/Pods-PintiJewelry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +129,9 @@
 		3F20AB6D1D22FD0500684EF0 /* PintiJewelry */ = {
 			isa = PBXGroup;
 			children = (
+				3F8501431D49D43600880BE5 /* LeftMenu */,
+				3F8501441D49D43600880BE5 /* MainMenu */,
+				3F8501471D49D43600880BE5 /* Other */,
 				3F20AB711D22FD0500684EF0 /* AppDelegate.h */,
 				3F20AB721D22FD0500684EF0 /* AppDelegate.m */,
 				3F20AB741D22FD0500684EF0 /* ViewController.h */,
@@ -145,6 +169,161 @@
 				3F20AB951D22FD0500684EF0 /* Info.plist */,
 			);
 			path = PintiJewelryUITests;
+			sourceTree = "<group>";
+		};
+		3F8501431D49D43600880BE5 /* LeftMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3FB029541D4B77BD006BF01A /* Location */,
+				3FB0295A1D4B77BD006BF01A /* setting */,
+				3FB029601D4B77BD006BF01A /* share */,
+				3F85014C1D49D46000880BE5 /* LeftMenuViewController.h */,
+				3F85014D1D49D46000880BE5 /* LeftMenuViewController.m */,
+			);
+			path = LeftMenu;
+			sourceTree = "<group>";
+		};
+		3F8501441D49D43600880BE5 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0294E1D4B76DF006BF01A /* Controller */,
+				3FB0294F1D4B76DF006BF01A /* Model */,
+				3FB029501D4B76DF006BF01A /* View */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		3F8501471D49D43600880BE5 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3F8501481D49D43600880BE5 /* BaseViewController.h */,
+				3F8501491D49D43600880BE5 /* BaseViewController.m */,
+				3F85014F1D49D8FC00880BE5 /* JNavigationViewController.h */,
+				3F8501501D49D8FC00880BE5 /* JNavigationViewController.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3FB0294E1D4B76DF006BF01A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FB029511D4B7715006BF01A /* MainViewController.h */,
+				3FB029521D4B7715006BF01A /* MainViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FB0294F1D4B76DF006BF01A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FB029501D4B76DF006BF01A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FB029541D4B77BD006BF01A /* Location */ = {
+			isa = PBXGroup;
+			children = (
+				3FB029551D4B77BD006BF01A /* Controller */,
+				3FB029581D4B77BD006BF01A /* Model */,
+				3FB029591D4B77BD006BF01A /* View */,
+			);
+			path = Location;
+			sourceTree = "<group>";
+		};
+		3FB029551D4B77BD006BF01A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FB029561D4B77BD006BF01A /* LocationViewController.h */,
+				3FB029571D4B77BD006BF01A /* LocationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FB029581D4B77BD006BF01A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FB029591D4B77BD006BF01A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FB0295A1D4B77BD006BF01A /* setting */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0295B1D4B77BD006BF01A /* Controller */,
+				3FB0295E1D4B77BD006BF01A /* Model */,
+				3FB0295F1D4B77BD006BF01A /* View */,
+			);
+			path = setting;
+			sourceTree = "<group>";
+		};
+		3FB0295B1D4B77BD006BF01A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FB0295C1D4B77BD006BF01A /* SettingViewController.h */,
+				3FB0295D1D4B77BD006BF01A /* SettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FB0295E1D4B77BD006BF01A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FB0295F1D4B77BD006BF01A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		3FB029601D4B77BD006BF01A /* share */ = {
+			isa = PBXGroup;
+			children = (
+				3FB029611D4B77BD006BF01A /* Controller */,
+				3FB029641D4B77BD006BF01A /* Model */,
+				3FB029651D4B77BD006BF01A /* View */,
+			);
+			path = share;
+			sourceTree = "<group>";
+		};
+		3FB029611D4B77BD006BF01A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				3FB029621D4B77BD006BF01A /* ShareViewController.h */,
+				3FB029631D4B77BD006BF01A /* ShareViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		3FB029641D4B77BD006BF01A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		3FB029651D4B77BD006BF01A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		60C8C9436EAAB59207A070A0 /* Frameworks */ = {
@@ -346,8 +525,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F20AB761D22FD0500684EF0 /* ViewController.m in Sources */,
+				3F8501511D49D8FC00880BE5 /* JNavigationViewController.m in Sources */,
+				3F85014B1D49D43600880BE5 /* BaseViewController.m in Sources */,
+				3FB029661D4B77BD006BF01A /* LocationViewController.m in Sources */,
+				3FB029531D4B7715006BF01A /* MainViewController.m in Sources */,
+				3FB029671D4B77BD006BF01A /* SettingViewController.m in Sources */,
 				3F20AB731D22FD0500684EF0 /* AppDelegate.m in Sources */,
 				3F20AB701D22FD0500684EF0 /* main.m in Sources */,
+				3FB029681D4B77BD006BF01A /* ShareViewController.m in Sources */,
+				3F85014E1D49D46000880BE5 /* LeftMenuViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
