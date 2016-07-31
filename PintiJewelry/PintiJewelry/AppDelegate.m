@@ -28,9 +28,8 @@
     LeftMenuViewController *leftMenuVC = [[LeftMenuViewController alloc] init];
     
     RESideMenu *sideMenuViewController = [[RESideMenu alloc] initWithContentViewController:nav leftMenuViewController:leftMenuVC rightMenuViewController:nil];
-    
     sideMenuViewController.backgroundImage = [UIImage imageNamed:@"Stars"];
-    sideMenuViewController.menuPreferredStatusBarStyle = UIStatusBarStyleLightContent; // UIStatusBarStyleLightContent
+    sideMenuViewController.menuPreferredStatusBarStyle = UIStatusBarStyleDefault;
     sideMenuViewController.delegate = self;
     sideMenuViewController.contentViewShadowColor = [UIColor blackColor];
     sideMenuViewController.contentViewShadowOffset = CGSizeMake(0, 0);

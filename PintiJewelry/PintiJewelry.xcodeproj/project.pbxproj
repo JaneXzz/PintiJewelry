@@ -18,10 +18,16 @@
 		3F85014B1D49D43600880BE5 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8501491D49D43600880BE5 /* BaseViewController.m */; };
 		3F85014E1D49D46000880BE5 /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F85014D1D49D46000880BE5 /* LeftMenuViewController.m */; };
 		3F8501511D49D8FC00880BE5 /* JNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F8501501D49D8FC00880BE5 /* JNavigationViewController.m */; };
+		3FA881101D4DE56200B828B0 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA8810F1D4DE56200B828B0 /* ShareView.m */; };
+		3FA881171D4DE97000B828B0 /* AboutUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FA881151D4DE97000B828B0 /* AboutUsViewController.m */; };
+		3FA881181D4DE97000B828B0 /* AboutUsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FA881161D4DE97000B828B0 /* AboutUsViewController.xib */; };
 		3FB029531D4B7715006BF01A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029521D4B7715006BF01A /* MainViewController.m */; };
 		3FB029661D4B77BD006BF01A /* LocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029571D4B77BD006BF01A /* LocationViewController.m */; };
 		3FB029671D4B77BD006BF01A /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB0295D1D4B77BD006BF01A /* SettingViewController.m */; };
 		3FB029681D4B77BD006BF01A /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029631D4B77BD006BF01A /* ShareViewController.m */; };
+		3FB029741D4C58CE006BF01A /* VisualMerchandisingCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029731D4C58CE006BF01A /* VisualMerchandisingCollectionViewCell.m */; };
+		3FB029791D4DC1A4006BF01A /* CommodityDisplayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB029771D4DC1A4006BF01A /* CommodityDisplayViewController.m */; };
+		3FB0297A1D4DC1A4006BF01A /* CommodityDisplayViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3FB029781D4DC1A4006BF01A /* CommodityDisplayViewController.xib */; };
 		5D8D7BC598DC6C1AE7701FD9 /* libPods-PintiJewelry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CB15B21F4017BC7FA55C836 /* libPods-PintiJewelry.a */; };
 /* End PBXBuildFile section */
 
@@ -67,6 +73,11 @@
 		3F85014D1D49D46000880BE5 /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		3F85014F1D49D8FC00880BE5 /* JNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JNavigationViewController.h; sourceTree = "<group>"; };
 		3F8501501D49D8FC00880BE5 /* JNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JNavigationViewController.m; sourceTree = "<group>"; };
+		3FA8810E1D4DE56200B828B0 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		3FA8810F1D4DE56200B828B0 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+		3FA881141D4DE97000B828B0 /* AboutUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutUsViewController.h; sourceTree = "<group>"; };
+		3FA881151D4DE97000B828B0 /* AboutUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutUsViewController.m; sourceTree = "<group>"; };
+		3FA881161D4DE97000B828B0 /* AboutUsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AboutUsViewController.xib; sourceTree = "<group>"; };
 		3FB029511D4B7715006BF01A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
 		3FB029521D4B7715006BF01A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		3FB029561D4B77BD006BF01A /* LocationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationViewController.h; sourceTree = "<group>"; };
@@ -75,6 +86,12 @@
 		3FB0295D1D4B77BD006BF01A /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		3FB029621D4B77BD006BF01A /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
 		3FB029631D4B77BD006BF01A /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		3FB029721D4C58CE006BF01A /* VisualMerchandisingCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualMerchandisingCollectionViewCell.h; sourceTree = "<group>"; };
+		3FB029731D4C58CE006BF01A /* VisualMerchandisingCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualMerchandisingCollectionViewCell.m; sourceTree = "<group>"; };
+		3FB029751D4C708D006BF01A /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		3FB029761D4DC1A4006BF01A /* CommodityDisplayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommodityDisplayViewController.h; sourceTree = "<group>"; };
+		3FB029771D4DC1A4006BF01A /* CommodityDisplayViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommodityDisplayViewController.m; sourceTree = "<group>"; };
+		3FB029781D4DC1A4006BF01A /* CommodityDisplayViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CommodityDisplayViewController.xib; sourceTree = "<group>"; };
 		81E87F6C720D5B3369832AF0 /* Pods-PintiJewelry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PintiJewelry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PintiJewelry/Pods-PintiJewelry.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,6 +217,7 @@
 				3F8501491D49D43600880BE5 /* BaseViewController.m */,
 				3F85014F1D49D8FC00880BE5 /* JNavigationViewController.h */,
 				3F8501501D49D8FC00880BE5 /* JNavigationViewController.m */,
+				3FB029751D4C708D006BF01A /* Header.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -209,6 +227,9 @@
 			children = (
 				3FB029511D4B7715006BF01A /* MainViewController.h */,
 				3FB029521D4B7715006BF01A /* MainViewController.m */,
+				3FB029761D4DC1A4006BF01A /* CommodityDisplayViewController.h */,
+				3FB029771D4DC1A4006BF01A /* CommodityDisplayViewController.m */,
+				3FB029781D4DC1A4006BF01A /* CommodityDisplayViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -223,6 +244,8 @@
 		3FB029501D4B76DF006BF01A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3FB029721D4C58CE006BF01A /* VisualMerchandisingCollectionViewCell.h */,
+				3FB029731D4C58CE006BF01A /* VisualMerchandisingCollectionViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -275,6 +298,9 @@
 			children = (
 				3FB0295C1D4B77BD006BF01A /* SettingViewController.h */,
 				3FB0295D1D4B77BD006BF01A /* SettingViewController.m */,
+				3FA881141D4DE97000B828B0 /* AboutUsViewController.h */,
+				3FA881151D4DE97000B828B0 /* AboutUsViewController.m */,
+				3FA881161D4DE97000B828B0 /* AboutUsViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -322,6 +348,8 @@
 		3FB029651D4B77BD006BF01A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				3FA8810E1D4DE56200B828B0 /* ShareView.h */,
+				3FA8810F1D4DE56200B828B0 /* ShareView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -449,7 +477,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA881181D4DE97000B828B0 /* AboutUsViewController.xib in Resources */,
 				3F20AB7E1D22FD0500684EF0 /* LaunchScreen.storyboard in Resources */,
+				3FB0297A1D4DC1A4006BF01A /* CommodityDisplayViewController.xib in Resources */,
 				3F20AB7B1D22FD0500684EF0 /* Assets.xcassets in Resources */,
 				3F20AB791D22FD0500684EF0 /* Main.storyboard in Resources */,
 			);
@@ -526,9 +556,13 @@
 			files = (
 				3F20AB761D22FD0500684EF0 /* ViewController.m in Sources */,
 				3F8501511D49D8FC00880BE5 /* JNavigationViewController.m in Sources */,
+				3FA881171D4DE97000B828B0 /* AboutUsViewController.m in Sources */,
 				3F85014B1D49D43600880BE5 /* BaseViewController.m in Sources */,
 				3FB029661D4B77BD006BF01A /* LocationViewController.m in Sources */,
 				3FB029531D4B7715006BF01A /* MainViewController.m in Sources */,
+				3FB029741D4C58CE006BF01A /* VisualMerchandisingCollectionViewCell.m in Sources */,
+				3FB029791D4DC1A4006BF01A /* CommodityDisplayViewController.m in Sources */,
+				3FA881101D4DE56200B828B0 /* ShareView.m in Sources */,
 				3FB029671D4B77BD006BF01A /* SettingViewController.m in Sources */,
 				3F20AB731D22FD0500684EF0 /* AppDelegate.m in Sources */,
 				3F20AB701D22FD0500684EF0 /* main.m in Sources */,

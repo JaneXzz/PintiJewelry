@@ -13,6 +13,9 @@
 #import "LocationViewController.h"
 #import "ShareViewController.h"
 #import "SettingViewController.h"
+#import "AboutUsViewController.h"
+#import "PopMenu.h"
+
 
 #define kCellHeight 54
 //#define kCellCount 4
@@ -33,7 +36,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    titlesArr = @[@"Home", @"Location", @"share", @"Setting"];
+    titlesArr = @[@"Home", @"Location", @"Share", @"About"];
     iconImageArr = @[@"IconHome", @"IconCalendar", @"IconProfile", @"IconSettings"];
     self.tableView = ({
         UITableView *tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, (self.view.frame.size.height - kCellHeight * titlesArr.count) / 2.0f, self.view.frame.size.width, kCellHeight * titlesArr.count) style:UITableViewStylePlain];
@@ -66,15 +69,40 @@
             [self.sideMenuViewController hideMenuViewController];
             break;
         case 2:
-            [self.sideMenuViewController setContentViewController:[[JNavigationViewController alloc] initWithRootViewController:[[ShareViewController alloc] init]] animated:YES];
+            [self.sideMenuViewController setContentViewController:[[JNavigationViewController alloc] initWithRootViewController:[[MainViewController alloc] init]] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
+            [self creatShare];
             break;
         case 3:
-            [self.sideMenuViewController setContentViewController:[[JNavigationViewController alloc] initWithRootViewController:[[SettingViewController alloc] init]] animated:YES];
+            [self.sideMenuViewController setContentViewController:[[JNavigationViewController alloc] initWithRootViewController:[[AboutUsViewController alloc] init]] animated:YES];
             [self.sideMenuViewController hideMenuViewController];
             break;
     }
 }
+
+-(void)creatShare
+{
+    
+    NSMutableArray *items = [[NSMutableArray alloc] initWithCapacity:4];
+    MenuItem *menuItem = [[MenuItem alloc] initWithTitle:@"微信" iconName:@"wx.png" glowColor:nil index:0];
+    [items addObject:menuItem];
+    menuItem = [MenuItem initWithTitle:@"QQ" iconName:@"kj.png" glowColor:nil index:1];
+    [items addObject:menuItem];
+    menuItem = [MenuItem initWithTitle:@"微博" iconName:@"wb.png" glowColor:nil index:2];
+    [items addObject:menuItem];
+    menuItem = [MenuItem initWithTitle:@"朋友圈" iconName:@"pyq.png" glowColor:nil index:3];
+    [items addObject:menuItem];
+    
+    PopMenu *popMenu = [[PopMenu alloc] initWithFrame:self.view.bounds items:items];
+    popMenu.menuAnimationType = kPopMenuAnimationTypeNetEase; // kPopMenuAnimationTypeSina
+    popMenu.perRowItemCount = 4;
+    popMenu.didSelectedItemCompletion = ^(MenuItem *selectedItem) {
+        NSLog(@"点击了%ld",(long)selectedItem.index);
+    };
+    [popMenu showMenuAtView:self.view.window];
+    
+}
+
 
 #pragma mark -
 #pragma mark UITableView Datasource

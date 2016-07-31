@@ -15,21 +15,35 @@ PODS:
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
   - Masonry (1.0.1)
+  - pop (1.0.9)
+  - PopMenu (2.4):
+    - pop
+    - XHRealTimeBlur
   - Reachability (3.2)
   - RESideMenu (4.0.7)
+  - SDWebImage (3.8.1):
+    - SDWebImage/Core (= 3.8.1)
+  - SDWebImage/Core (3.8.1)
+  - XHRealTimeBlur (1.7)
 
 DEPENDENCIES:
   - AFNetworking (~> 3.1.0)
   - Masonry (~> 1.0.1)
+  - PopMenu
   - Reachability (~> 3.2)
   - RESideMenu (~> 4.0.7)
+  - SDWebImage (~> 3.8.1)
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Masonry: a1a931a0d08870ed8ae415a2ea5ea68ebcac77df
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+  PopMenu: 26b97baeaf250070f4f61b93727ca86d127d7bc5
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   RESideMenu: f24c508404b49c667344c54aba7e590883533958
+  SDWebImage: 35f9627a3e44b4f292a8a8ce6a531fa488239b91
+  XHRealTimeBlur: 661fadd5691ba2d349758e8fd5fbdb499ac55f8c
 
-PODFILE CHECKSUM: aa2ecbcd4df41b44d90329967ed12c744e653ea8
+PODFILE CHECKSUM: a7def956305b3667be701657b95ced91f0616e9b
 
 COCOAPODS: 1.0.1

@@ -9,10 +9,7 @@
 #import "BaseViewController.h"
 
 
-#define RGBACOLOR(r,g,b,a) [UIColor colorWithRed:(r)/255.0f green:(g)/255.0f blue:(b)/255.0f alpha:(a)]
-#define RGB0X(rgbValue) [UIColor colorWithRed: ((float)((rgbValue & 0xFF0000) >> 16)) / 255.0 \
-green: ((float)((rgbValue & 0xFF00) >> 8)) / 255.0 \
-blue: ((float)(rgbValue & 0xFF)) / 255.0 alpha: 1.0]
+
 
 @interface BaseViewController ()
 
@@ -29,7 +26,7 @@ blue: ((float)(rgbValue & 0xFF)) / 255.0 alpha: 1.0]
     
     UILabel *customLab = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 100, 30)];
     [customLab setTextColor:[UIColor whiteColor]];
-    customLab.layer.shadowColor = [UIColor blackColor].CGColor;
+    customLab.layer.shadowColor = [UIColor whiteColor].CGColor;
     customLab.layer.shadowOpacity = 0.2;
     customLab.layer.shadowOffset = CGSizeMake(0, 3);
     customLab.backgroundColor = [UIColor clearColor];
@@ -40,15 +37,35 @@ blue: ((float)(rgbValue & 0xFF)) / 255.0 alpha: 1.0]
     
 }
 -(void)leftCustomViewImageName:(NSString *)imageName action:(SEL)action{
+    
+    UIButton *button = [self myCustomButtonImageName:imageName frame:CGRectMake(0, 0, 25, 20) action:action];
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+    self.navigationItem.leftBarButtonItem = leftItem;
+}
+-(void)goback
+{
+    UIButton *button = [self myCustomButtonImageName:@"Left_Arrow_48" frame:CGRectMake(0, 0, 25, 20) action:@selector(didgoback)];
+    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithCustomView:button];
+//    UIBarButtonItem *nagetiveSpacer = [[UIBarButtonItem alloc]initWithBarButtonSystemItem:UIBarButtonSystemItemFixedSpace target:nil action:nil];
+//    nagetiveSpacer.width = -11;//这个值可以根据自己需要自己调整
+    self.navigationItem.leftBarButtonItem = leftItem;
+}
+
+-(UIButton *)myCustomButtonImageName:(NSString *)imageName frame:(CGRect)frame action:(SEL)action
+{
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     [button setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     [button addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
-    button.frame = CGRectMake(0, 10, 25, 20);
-    
-    UIBarButtonItem *leftItem = [[UIBarButtonItem alloc] initWithCustomView:button];
-    self.navigationItem.leftBarButtonItem = leftItem;
+    button.frame = frame;
+    return button;
+}
+-(void)didgoback
+{
+//    [self dismissViewControllerAnimated:YES completion:nil];
+    [self.navigationController popToRootViewControllerAnimated:YES];
 
 }
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

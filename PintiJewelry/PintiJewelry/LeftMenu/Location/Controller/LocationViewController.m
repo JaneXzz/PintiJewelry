@@ -19,7 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self titleIs:@"Location"];
-    self.view.backgroundColor = [UIColor redColor];
     [self leftCustomViewImageName:@"paragraph" action:@selector(presentLeftMenuViewController:)];
 
 }

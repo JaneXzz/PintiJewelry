@@ -7,6 +7,7 @@
 //
 
 #import "JNavigationViewController.h"
+#import "Header.h"
 
 @interface JNavigationViewController ()
 
@@ -20,7 +21,7 @@
     
     self.navigationBar.titleTextAttributes = @{NSForegroundColorAttributeName: [UIColor whiteColor]};
     self.navigationBar.tintColor = [UIColor clearColor]; //控件颜色
-    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_navigation_background"] forBarMetrics:UIBarMetricsDefault];
+    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"top_green"] forBarMetrics:UIBarMetricsDefault];
 }
 - (UIStatusBarStyle)preferredStatusBarStyle{
     

@@ -6,4 +6,5 @@ target 'PintiJewelry’ do
    pod 'RESideMenu', '~> 4.0.7'
    pod 'Masonry', '~> 1.0.1’
    pod 'SDWebImage', '~> 3.8.1'
+   pod 'PopMenu'
 end

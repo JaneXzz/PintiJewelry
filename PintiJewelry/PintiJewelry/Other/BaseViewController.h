@@ -18,4 +18,6 @@
 
 -(void)titleIs:(NSString *)sender;
 -(void)leftCustomViewImageName:(NSString *)imageName action:(SEL)action;
+-(void)goback;
+
 @end

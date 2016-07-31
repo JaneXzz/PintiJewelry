@@ -8,8 +8,7 @@
 
 #import "BaseViewController.h"
 
-@interface MainViewController : BaseViewController
+@interface MainViewController : BaseViewController<UICollectionViewDelegate,UICollectionViewDataSource>
 
-+(MainViewController *)shareInstance;
 
 @end

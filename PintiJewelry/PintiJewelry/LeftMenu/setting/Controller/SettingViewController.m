@@ -19,7 +19,6 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self titleIs:@"Setting"];
-    self.view.backgroundColor = [UIColor blueColor];
     [self leftCustomViewImageName:@"paragraph" action:@selector(presentLeftMenuViewController:)];
 
 }

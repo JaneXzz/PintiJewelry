@@ -7,8 +7,13 @@
 //
 
 #import "ShareViewController.h"
+#import "PopMenu.h"
+
 
 @interface ShareViewController ()
+{
+    PopMenu *popMenu ;
+}
 
 @end
 
@@ -17,11 +22,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    [self titleIs:@"Share"];
-    self.view.backgroundColor = [UIColor cyanColor];
-    [self leftCustomViewImageName:@"paragraph" action:@selector(presentLeftMenuViewController:)];
+//    [self titleIs:@"Share"];
+//    [self leftCustomViewImageName:@"paragraph" action:@selector(presentLeftMenuViewController:)];
+    self.navigationController.navigationBar.hidden = YES;
+//    [self creatShare];
 
 }
+//分享
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C871DCA37E4528074334283C31A03F99'
+               BlueprintIdentifier = '6E64D68C33393B63F761C18B8F702B42'
                BlueprintName = 'Pods-PintiJewelry'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-PintiJewelry.a'>
